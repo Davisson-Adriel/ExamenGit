@@ -14,3 +14,9 @@ def cargarjson(archivo):
     elif archivo=="servicios1.json":
         servicios.update(datos)
     
+def guardarjson():
+    with open(paquetes_json,"w") as archivo:
+        json.dump(paquetes,archivo,indent=4)
+
+    with open(servicios_json,"w") as archivo:
+        json.dump(servicios,archivo,indent=4)
