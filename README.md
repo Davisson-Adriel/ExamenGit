@@ -43,6 +43,6 @@ MIT © 2024 - Ricardo, Davisson
 ![image](https://github.com/user-attachments/assets/b6e00551-455c-40ab-9824-5d5375c5f91e)
 se presento el siguiente conflicto con una funcion de saludo
 
-se selecciono la opcion de current 
+se selecciono la opcion de incoming
 ![image](https://github.com/user-attachments/assets/5f16752e-6ced-4b2b-8b2a-bc401e623bf4)
 
