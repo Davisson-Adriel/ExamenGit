@@ -6,8 +6,12 @@ servicios_json="servicios1.json"
 
 def cargarjson(archivo):
     datos={}
-    with open(archivo,"r") as file:
-        datos=json.load(file)
+    try:
+        with open(archivo,"r") as file:
+            datos=json.load(file)
+    except Exception:
+        print("")
+        datos = None
     
     if archivo=="paquetes1.json":
         paquetes.update(datos)
