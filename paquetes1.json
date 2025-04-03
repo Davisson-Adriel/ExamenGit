@@ -1,0 +1,14 @@
+{
+    "Plus": {
+        "Nombre": "Plus",
+        "Precio": "2000",
+        "Tipo": "Bodas",
+        "Duraci\u00f3n": "3 horas"
+    },
+    "Master": {
+        "Nombre": "Master",
+        "Precio": "4000",
+        "Tipo": "Quincea\u00f1os",
+        "Duraci\u00f3n": "2 horas"
+    }
+}

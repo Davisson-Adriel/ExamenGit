@@ -9,10 +9,10 @@ def agpaquete():
         nom=nom.capitalize()
         eva=paquetes.get(nom,1)
 
-        if eva!=1:
+        if eva==1:
             break
         else:
-            print("Paquete ya existente")
+            print("Paquete ya existe")
         
     while True:
 
@@ -41,7 +41,7 @@ def agservicio():
                 print("Solo Numeros")
         
         eva=servicios.get(cod,1)
-        if eva!=1:
+        if eva==1:
             break
         else:
             print("Servicio ya existente")
@@ -51,7 +51,7 @@ def agservicio():
         noms=input("Ingrese el nombre del paquete:")
         noms=noms.capitalize()
         eva=paquetes.get(noms,1)
-        if eva!=1:
+        if eva==1:
             print("Paquete no existente")
         else:
             break
@@ -67,7 +67,7 @@ def deletpaquete():
             noms=input("Ingrese el nombre del paquete que desea eliminar:")
             noms=noms.capitalize()
             eva=paquetes.get(noms,1)
-            if eva!=1:
+            if eva==1:
                 print("Paquete no existente")
             else:
                 break
@@ -84,7 +84,7 @@ def deletpaquete():
                 1. SI
                 2. NO
                     """)
-            opc=int(input("Ingrese el numero de acuerdo a su elección"))
+            opc=int(input("Ingrese el numero de acuerdo a su elección: "))
             if opc==1:
                 print("Paquete eliminado con exito")
                 paquetes.pop(noms)
@@ -103,7 +103,7 @@ def editpaquete():
             noms=input("Ingrese el nombre del paquete que desea editar:")
             noms=noms.capitalize()
             eva=paquetes.get(noms,1)
-            if eva!=1:
+            if eva==1:
                 print("Paquete no existente")
             else:
                 break
