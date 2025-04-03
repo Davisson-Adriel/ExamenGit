@@ -95,3 +95,29 @@ def deletpaquete():
                 print("Valor no valido")
         except ValueError:
             print("Valor no valido")
+
+def editpaquete():
+
+    while True:
+
+            noms=input("Ingrese el nombre del paquete que desea editar:")
+            noms=noms.capitalize()
+            eva=paquetes.get(noms,1)
+            if eva!=1:
+                print("Paquete no existente")
+            else:
+                break
+    
+    while True:
+
+        prec=input("Ingrese el precio del paquete: ")
+        if prec.isdigit():
+            break
+        else:
+            print("El dato ingresado no corresponde a un valor numerico")
+
+    tip=input("Ingrese el tipo de evento del paquete: ")
+    dura=input("Ingrese la duración del paquete: ")
+
+    paquetes[noms]={"Nombre":noms,"Precio":prec,"Tipo":tip,"Duración":dura}
+    print("PAQUETE EDITADO CON EXITO")
