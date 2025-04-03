@@ -29,9 +29,12 @@ python main.py
 ✨ Registro, edición y eliminacion  de paquetes📜
 
 🛡️ Estructura 
+
    Se estructuro mediante 4 modulos .py y 2 archivos json
+   
    Se distribuyo el trabajo de manera que un integrante trabajaba en visualizacion del sistema - usuario, mientras que el otro trabajaba en las funcionalidades de este sistema.
-   Comenzamos terminando todas las funcionalidades para al final adjuntandolas con el menu principal y lograr la funcionalidad del sistema
+   
+   Comenzamos terminando todas las funcionalidades para al final adjuntarlas con el menu principal y lograr la funcionalidad del sistema
 
 📄 Licencia
 MIT © 2024 - Ricardo, Davisson
