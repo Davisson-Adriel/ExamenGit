@@ -1,3 +1,5 @@
+from funcionalidades import *
+from archivos import *
 menu_principal ="""
 ---------------------- BIENVENIDO A PHOTOCAMPUS ----------------------
 Seleccione la opcion que desea.
@@ -17,15 +19,16 @@ def ejecucion_menu_principal():
         mostrar_menu_principal()
         opc = input("Ingrese la opcion que desea: ")
         if opc == "1":
-            print("hola")
+            agpaquete()
         elif opc == "2":
-            print("")
+            agservicio()
         elif opc == "3":
-            print("")
+            editpaquete()
         elif opc == "4":
-            print("")
+            deletpaquete()
         elif opc == "5":
             print("¡Hasta Luego! Saliendo...")
+            guardarjson()
             break
         else:
             print("Lea Bien, Ingrese una opcion valida. ")
