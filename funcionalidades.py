@@ -121,3 +121,7 @@ def editpaquete():
 
     paquetes[noms]={"Nombre":noms,"Precio":prec,"Tipo":tip,"Duración":dura}
     print("PAQUETE EDITADO CON EXITO")
+
+
+def saludo():
+    print("BIENVENIDO QUERIDO USUARIO")
